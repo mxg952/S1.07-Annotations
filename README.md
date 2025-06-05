@@ -1,8 +1,5 @@
 # S1.07 - Annotations
 
-Here’s the concise English version for the Annotations tasks in Markdown format:
-
-
 ## Level 1
 
 ### Exercise 1

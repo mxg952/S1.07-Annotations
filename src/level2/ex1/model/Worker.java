@@ -12,16 +12,5 @@ public class Worker {
         this.hourlyRate = hourlyRate;
     }
 
-    public double getHourlyRate() {
-        return hourlyRate;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public String getName() {
-        return name;
-    }
 }
 

@@ -2,6 +2,7 @@ package level2.ex1.model;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 import java.lang.reflect.Field;
 
 public class Serializer {
