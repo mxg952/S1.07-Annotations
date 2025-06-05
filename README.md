@@ -38,8 +38,7 @@ https://github.com/mxg952/S1.07-Annotations.git
 3. Run the class `nivell1.app.Main.java`.
 
 ## Execution
-
-## Deployment
+Run the main class of any excercice.
 
 ## Contributions
 The project ignores `.idea/`, `.out/`, `.iml`.
