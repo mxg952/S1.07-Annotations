@@ -17,12 +17,6 @@ Add deprecated methods (`@Deprecated`) in child classes. Call them from an exter
 Create a custom annotation `@JsonSerializable` that marks a Java class for JSON serialization, accepting a
 target directory path for the output file.
 
-## Level 3
-
-### Exercise 1
-Modify the custom annotation to be retained at runtime (`@Retention(RetentionPolicy.RUNTIME)`). Demonstrate reading
-it using Java Reflection in a test case.
-
 
 ## Technologies Used
 * Java
