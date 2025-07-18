@@ -1,4 +1,4 @@
-package level1.ex1.model;
+package level1.ex2.model;
 
 
 public class RemoteWorker extends Worker {
@@ -9,8 +9,9 @@ public class RemoteWorker extends Worker {
     }
 
     @Override
-    public double calculateSalary(int hoursWorked) {
-        return super.calculateSalary(hoursWorked) + INTERNET_PLAN;
+    @Deprecated
+    public double CalculateSalaryMarkedForDeprecation(int hoursWorked) {
+        return super.CalculateSalaryMarkedForDeprecation(hoursWorked) + INTERNET_PLAN;
     }
 }
 

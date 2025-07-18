@@ -1,6 +1,6 @@
 package level1.ex1.model;
 
-public class Worker {
+public abstract class Worker {
     protected String name;
     protected String surname;
     protected double hourlyRate;
@@ -10,7 +10,6 @@ public class Worker {
         this.surname = surname;
         this.hourlyRate = hourlyRate;
     }
-
 
     public double calculateSalary(int hoursWorked) {
         return hoursWorked * hourlyRate;

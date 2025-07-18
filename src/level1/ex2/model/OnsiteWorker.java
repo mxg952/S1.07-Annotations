@@ -1,4 +1,4 @@
-package level1.ex1.model;
+package level1.ex2.model;
 
 public class OnsiteWorker extends Worker {
     public static double gasAllowance = 50.0;
@@ -8,8 +8,11 @@ public class OnsiteWorker extends Worker {
     }
 
     @Override
-    public double calculateSalary(int hoursWorked) {
-        return super.calculateSalary(hoursWorked) + gasAllowance;
+    @Deprecated
+    public double CalculateSalaryMarkedForDeprecation(int hoursWorked) {
+        return super.CalculateSalaryMarkedForDeprecation(hoursWorked) + gasAllowance;
     }
+
+
 }
 
