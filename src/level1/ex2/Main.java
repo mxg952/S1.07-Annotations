@@ -10,7 +10,7 @@ public class Main {
         OnsiteWorker onsite = new OnsiteWorker("Marc", "Guillem", 16.0);
         RemoteWorker remote = new RemoteWorker("Anna", "Muñoz", 12.0);
 
-            System.out.println("Onsite worker salary: " + onsite.CalculateSalaryMarkedForDeprecation(160));
-            System.out.println("Remote worker salary: " + remote.CalculateSalaryMarkedForDeprecation(160));
+            System.out.println(onsite.CalculateSalaryMarkedForDeprecation(160));
+            System.out.println(remote.CalculateSalaryMarkedForDeprecation(160));
     }
 }

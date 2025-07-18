@@ -8,11 +8,15 @@ public class OnsiteWorker extends Worker {
     }
 
     @Override
-    @Deprecated
-    public double CalculateSalaryMarkedForDeprecation(int hoursWorked) {
-        return super.CalculateSalaryMarkedForDeprecation(hoursWorked) + gasAllowance;
+    public double calculateSalary(int hoursWorked) {
+        return super.calculateSalary(hoursWorked) + gasAllowance;
     }
 
-
+    @Deprecated
+    public String CalculateSalaryMarkedForDeprecation(int hoursWorked) {
+        String message = "Mètode antic per calcular el sou";
+        return message;
+    }
 }
+
 

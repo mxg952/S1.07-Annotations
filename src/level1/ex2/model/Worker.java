@@ -11,7 +11,7 @@ public class Worker {
         this.hourlyRate = hourlyRate;
     }
 
-    public double CalculateSalaryMarkedForDeprecation(int hoursWorked) {
+    public double calculateSalary(int hoursWorked) {
         return hoursWorked * hourlyRate;
     }
 }
